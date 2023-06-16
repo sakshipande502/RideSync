@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ProfilePhoto {
+  width: 30px;
+  border-radius: 100%;
+}
+
+.profilebtn {
+  margin-right: 60px;
+}
+
+
+
+
+
+
+.PickDropItem {
+  margin: 7px 3px 7px 3px;
+}
+
+.findTrip {
+  border-color: grey;
+  border-style:solid;
+  border-radius: 20px;
+  height: 240px;
+  align-self: center;
+}
+
+.MainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 90vh;
+}
+/* 
+.PickDrokpContainer {
+} */
+
+input {
+  font-size: 10px;
+  size: 10px;
+}
+
+button {
+  /* size: 10px; */
+  font-size: 11px !important;
+  /* height: 20px; */
+}
+
+.map {
+  align-self: center;
+}
